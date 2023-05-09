@@ -1,0 +1,20 @@
+{
+  "name": "docuassist",
+  "version": "1.0.0",
+  "description": "AI-driven document querying web app using Langchain.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swooshcode/DocuAssist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swooshcode/DocuAssist/issues"
+  },
+  "homepage": "https://github.com/swooshcode/DocuAssist#readme"
+}
