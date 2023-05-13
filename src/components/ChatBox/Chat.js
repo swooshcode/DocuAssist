@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { processMessage } from '../services/langchainService';
 
 function Chat() {
   const [message, setMessage] = useState('');
@@ -9,7 +10,7 @@ function Chat() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Here you would handle the message submission, likely calling a function from your Langchain service
+    processMessage(message);
   };
 
   return (
